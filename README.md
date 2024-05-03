@@ -36,12 +36,10 @@ This project integrates a Python-trained Random Forest Classifier model with a S
 
 2.**Build the project with Maven**:
 
-    ```bash
     mvn clean install
     
 3.**Run the Spring Boot application**:
 
-    ```bash
     mvn spring-boot:run
 
 ### API Endpoints
@@ -54,7 +52,6 @@ This project integrates a Python-trained Random Forest Classifier model with a S
 ### Usage Example
 To predict the price of a device using the system, send a POST request with the device ID:
 
-    ```bash
     curl -X POST http://localhost:8080/api/predict/{id}
     
 Replace {id} with the actual ID of the device.
