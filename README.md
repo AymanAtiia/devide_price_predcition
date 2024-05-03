@@ -1,6 +1,6 @@
 # Device Price Prediction System
 
-This project integrates a Python-trained Random Forest Classifier model with a Spring Boot application to predict the prices of electronic devices based on their specifications. The model, trained in Python, is exposed as a Flask web service, which the Spring Boot application consumes to provide predictions through RESTful APIs.
+This project integrates a Python-trained Logistic Regression Classifier model with a Spring Boot application to predict the prices of electronic devices based on their specifications. The model, trained in Python, is exposed as a Flask web service, which the Spring Boot application consumes to provide predictions through RESTful APIs.
 
 ## Prerequisites
 
