@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load your trained model
-model = pickle.load(open('saved_models/device_price_model.joblib', 'rb'))
+model = pickle.load(open('saved_models/lr_model.pkl', 'rb'))
 
 @app.route('/predict', methods=['POST'])
 def predict():
