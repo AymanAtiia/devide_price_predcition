@@ -36,10 +36,12 @@ This project integrates a Python-trained Random Forest Classifier model with a S
     cd <repository-directory>
 
 2.**Build the project with Maven**:
+
     ```bash
     mvn clean install
     
 3.**Run the Spring Boot application**:
+
     ```bash
     mvn spring-boot:run
 
