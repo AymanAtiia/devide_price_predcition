@@ -30,6 +30,7 @@ This project integrates a Python-trained Random Forest Classifier model with a S
 ### Setting Up the Spring Boot Application
 
 1.**Clone the repository**:
+
     ```bash
     git clone <repository-url>
     cd <repository-directory>
